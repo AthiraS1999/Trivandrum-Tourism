@@ -1,0 +1,71 @@
+<html>
+    <head>
+
+    </head>
+    <title>
+
+    </title>
+    <body>
+        <script>
+
+            // var num1=parseInt(prompt("enter the number 1: "));
+            // var num2=parseInt(prompt("enter the number 2: "));
+            //  var sum=parseInt(num1+num2);
+            //  document.write("sum:"+sum);
+
+            // if example
+            // --------------
+        //     var num=parseInt(prompt("enter your age:"));
+        //     if(num>18)
+        //     document.write("qualifies for driving");
+        // else
+        // document.write("not qualifies for driving");
+
+
+        // if else ifelse
+        // -----------------
+
+    //     var a=parseInt(prompt("enter number 1"));
+    //     var b=parseInt(prompt("enter number 2"));
+    //     var c=parseInt(prompt("enter number 3"));
+    //     if((a>b)&&(b>c))
+    //     document.write("larger number is:" +a);
+    // else if((b>a)&&(b>c))
+    //     document.write("larger number is:" +b);
+    // else
+    //     document.write("larger number is:" +c);
+       
+
+        // switch
+        // -----------
+        var choice=prompt("enter choice:");
+        switch(choice)
+        {
+            case '1': var num1=parseInt(prompt("enter first nmumber:"));
+                      var num2=parseInt(prompt("enter second number:"));
+                      var result=parseInt(num1+num2);
+                      document.write("sum is "+result);
+                      break;
+            case '2': var num1=prompt("enter first nmumber:");
+                      var num2=prompt("enter second number:");
+                      var result=num1-num2;
+                      document.write("difference is "+result);
+                      break; 
+            case '3': var num1=prompt("enter first nmumber:");
+                      var num2=prompt("enter second number:");
+                      var result=num1*num2;
+                      document.write("product is "+result);
+                      break;  
+            case '4': var num1=prompt("enter first nmumber:");
+                      var num2=prompt("enter second number:");
+                      var result=num1/num2;
+                      document.write("quotient is "+result);
+                      break;  
+            default:document.write("invalid choice");  
+            break;                        
+        }
+        
+
+        </script>
+    </body>
+        </html>

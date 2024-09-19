@@ -1,0 +1,14 @@
+.img
+{
+height: 300px;
+width: 300px;
+transition: transform 3s linear;
+}
+.a:hover
+{
+    transform: scale(2);
+}
+.b:hover
+{
+    transform: rotate(360deg);
+}

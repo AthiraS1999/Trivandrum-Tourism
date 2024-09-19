@@ -1,0 +1,37 @@
+.a
+{
+    background-color: aqua;
+    border: 200px;
+    height: 250px;
+    width: 250px;
+    text-align:center;
+    padding-top: 30px;
+    margin: 6px;
+    font-size: medium;
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+.b
+{
+    background-color: aqua;
+    border: 200px;
+    height: 250px;
+    width: 250px;
+    margin: 6px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: medium;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.box1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+

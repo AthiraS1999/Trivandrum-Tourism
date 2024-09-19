@@ -1,0 +1,25 @@
+<html>
+    <head>
+
+    </head>
+    <title>
+
+    </title>
+    <body>
+        <input type="text" id="num1" placeholder="enter the first number"><br><br>
+        <input type="text" id="num2" placeholder="enter the second number"><br><br>
+        <button onclick="sum()">sum</button><br><br>
+        <input type="text" id="num3" placeholder="result"><br><br>
+        <script>
+            function sum()
+            {
+         var num1=parseInt( document.getElementById("num1").value);
+         var num2=parseInt( document.getElementById("num2").value);
+         var sum=0;
+         sum=parseInt (num1+num2);
+         var num2=document.getElementById("num3").value=sum;
+            }
+
+        </script>
+        </body>
+        </html>

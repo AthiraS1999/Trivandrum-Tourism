@@ -1,0 +1,22 @@
+li
+{
+    display: inline;
+}
+h1{
+    display: none;
+}
+h2
+{
+    visibility: hidden;
+}
+input[type="button"]
+{
+  background-color: aqua;  
+  color: blue;
+  width: 150px;
+  height: 60px;
+}
+.btn:hover h2
+{
+    display: block;
+}

@@ -1,0 +1,62 @@
+<html>
+    <head>
+     <style>
+        .drop-btn
+        {
+            background-color: black;
+            color: red;
+            padding: 2px;
+            cursor: pointer;
+            font-size:large;
+            border: 2px;
+        }
+        .dropdown
+        {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content a
+        {
+            color: rgb(226, 9, 118);
+            padding: 8px;
+            display: block;
+            text-decoration: none;
+        }
+        .dropdown-content
+        {
+            position: absolute;
+            background-color: aquamarine;
+            min-width: 15px;
+            box-shadow: 10px 20px 10px 3px blue;
+            z-index: 1px;
+            display: none;
+        }
+        .dropdown-content a:hover
+        {
+            background-color: orange;
+        
+        }
+        .dropdown:hover .dropdown-content
+        {
+        display: block;
+        }
+        .dropdown:hover .drop-btn
+        {
+            background-color: lawngreen;
+        }
+
+
+     </style>
+    </head>
+    <title></title>
+    <body>
+        <div class="dropdown">
+            <button class="drop-btn">Course</button>
+            <div class="dropdown-content">
+                <a href="#">Java</a>
+                <a href="#">python</a>
+                <a href="#">Mern</a>
+            </div>
+    </body>
+
+</html>

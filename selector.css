@@ -1,0 +1,26 @@
+#item1
+{
+    color:blue;
+}
+#item2
+{
+    color:black;
+}
+#item3
+{
+    color:blueviolet;
+}
+#item4
+{
+    color: azure;
+}
+body{
+    background-image: url(thymian.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background: linear-gradient(red,pink,blue,green);
+    background: radial-gradient(red,pink,blue,green);
+
+}

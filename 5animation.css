@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+div
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    animation: move 5s linear infinite;
+    margin: 2px;
+    border: none;
+    background-color:white;
+    position: relative;
+    /* animation-delay: 1s; */
+}
+@keyframes move{
+ 0%
+ {
+ left: 0px;
+ top: 0px;
+}
+50%
+{
+    left:0px;
+    top: 4px;
+}
+}
+.c1{
+    animation-delay: 1s;
+}
+.c2{
+    animation-delay: 2s;
+}
+.c3{
+    animation-delay: 3s;
+}
+.c4{
+    animation-delay: 4s;
+}
+.c5{
+    animation-delay: 5s;
+}
