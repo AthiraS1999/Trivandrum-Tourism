@@ -3,18 +3,23 @@
     padding:0px;
     box-sizing:border-box;
 }
-.navbar-brand{
-display: flex;
+
+.navbar-brand-go{
+    display: flex;
 justify-content: space-beween;
-align-items: center;
-margin-left: 60px;
-font-size:xx-large;
-font-family: Anton;
-text-shadow: 0 5px 10px red;
+margin: 15px 15px 15px 100px;
+font-size:28px;
+font-family: cursive;
+text-decoration: none;
+color:darkmagenta;
+text-shadow: 0 5px 10px black;
 }
- div a .navbar-brand { 
-    color: rgb(243, 70, 8); 
+
+.navbar-nav{
+    font-size: larger;
+    padding: 0px 10px 0px 10px;
 }
+
 .nav-link{
     margin-left: 80px;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -22,6 +27,10 @@ text-shadow: 0 5px 10px red;
 }
  .section-padding{ 
     padding: 100px 0;
+}
+.carousel-slide{
+    margin:0px 2px 2px 2px;
+    padding:0px 2px 2px 2px;
 }
 .carousel-item{
     height: 100vh;
@@ -55,6 +64,7 @@ margin-top: 25px;
 }
 /* card */
 .card{
+    padding: 5px 10px 5px 10px;
     margin: 20px 30px 20px 30px;
 }
 .card:hover{
@@ -68,26 +78,30 @@ margin-top: 25px;
     transform: scale(1.1);
 }
 .card1{
+    padding:5px 10px 5px 10px;
+    margin:20px 30px 20px 30px;
     transition: transform .5s;
 }
 .card-text1{
     font-size: x-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 .card2:hover{
     transform: scale(1.1);
 }
 .card2{
+    padding:5px 10px 5px 10px;
+    margin:20px 30px 20px 30px;
     transition: transform .5s;
 }
-.card4{
-   margin: 20px 20px 20x 20px; 
-   padding: 5px 5px 5px 5px;
-}
+
 .card4:hover{
     transform: scale(1.1);
 }
 .card4{
+    padding:5px 20px 5px 20px;
+    /* margin:20px 30px 20px 30px; */
     transition: transform .5s;
 }
 /* footer  */
