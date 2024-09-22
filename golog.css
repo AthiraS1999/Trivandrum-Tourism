@@ -87,6 +87,36 @@ header{
     transition: .2s ease;
 
 }
+#email{
+    font-size: 15px;
+    text-align: center;
+    background: rgba(255, 255,255,0.2);
+    color: white;
+    height:50px;
+    width:100%;
+    padding: 20,10px,20px,45px;
+    margin: 0,10px,0px,45px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    transition: .2s ease;
+
+}
+#pswd{
+    font-size: 15px;
+    text-align: center;
+    background: rgba(255, 255,255,0.2);
+    color: white;
+    height:50px;
+    width:100%;
+    padding: 20,10px,20px,45px;
+    margin: 0,10px,0px,45px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    transition: .2s ease;
+
+}
 .input-field:hover,.input-field:focus{
     background: rgba(255, 255,255, 0.25);
 }
